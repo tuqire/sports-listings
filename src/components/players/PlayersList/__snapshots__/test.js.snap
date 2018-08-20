@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/players/PlayersList #PlayersList matches snapshots when nothing in store 1`] = `
+<Component
+  players={Array []}
+>
+  <div
+    className="row"
+  />
+</Component>
+`;
+
+exports[`components/players/PlayersList #PlayersList matches snapshots when players in store 1`] = `
+<Component
+  players={
+    Array [
+      Object {
+        "firstname": "firstname 1",
+        "lastname": "lastname 1",
+        "picture": "picture 1",
+        "shortname": "shortname 1",
+      },
+      Object {
+        "firstname": "firstname 2",
+        "lastname": "lastname 2",
+        "picture": "picture 2",
+        "shortname": "shortname 2",
+      },
+      Object {
+        "firstname": "firstname 3",
+        "lastname": "lastname 3",
+        "picture": "picture 3",
+        "shortname": "shortname 3",
+      },
+    ]
+  }
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+      key="shortname 1"
+    >
+      <Component
+        player={
+          Object {
+            "firstname": "firstname 1",
+            "lastname": "lastname 1",
+            "picture": "picture 1",
+            "shortname": "shortname 1",
+          }
+        }
+      >
+        <div
+          className="players-list-item"
+        >
+          <h4>
+            firstname 1
+             
+            lastname 1
+          </h4>
+          <h6
+            className="h6 text-muted small"
+          >
+            shortname 1
+          </h6>
+          <img
+            alt="picture of firstname 1 lastname 1"
+            className="img-fluid mt-3"
+            src="picture 1"
+          />
+        </div>
+      </Component>
+    </div>
+    <div
+      className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+      key="shortname 2"
+    >
+      <Component
+        player={
+          Object {
+            "firstname": "firstname 2",
+            "lastname": "lastname 2",
+            "picture": "picture 2",
+            "shortname": "shortname 2",
+          }
+        }
+      >
+        <div
+          className="players-list-item"
+        >
+          <h4>
+            firstname 2
+             
+            lastname 2
+          </h4>
+          <h6
+            className="h6 text-muted small"
+          >
+            shortname 2
+          </h6>
+          <img
+            alt="picture of firstname 2 lastname 2"
+            className="img-fluid mt-3"
+            src="picture 2"
+          />
+        </div>
+      </Component>
+    </div>
+    <div
+      className="col-6 col-md-4 col-lg-3 mt-5 mb-3"
+      key="shortname 3"
+    >
+      <Component
+        player={
+          Object {
+            "firstname": "firstname 3",
+            "lastname": "lastname 3",
+            "picture": "picture 3",
+            "shortname": "shortname 3",
+          }
+        }
+      >
+        <div
+          className="players-list-item"
+        >
+          <h4>
+            firstname 3
+             
+            lastname 3
+          </h4>
+          <h6
+            className="h6 text-muted small"
+          >
+            shortname 3
+          </h6>
+          <img
+            alt="picture of firstname 3 lastname 3"
+            className="img-fluid mt-3"
+            src="picture 3"
+          />
+        </div>
+      </Component>
+    </div>
+  </div>
+</Component>
+`;
